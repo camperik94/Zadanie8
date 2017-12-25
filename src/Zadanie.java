@@ -17,7 +17,9 @@ public class Zadanie {
 		
 		in.close();
 		
+		Obliczenia obl = new Obliczenia(a, b);
 		
+		obl.funkcja();
 
 
 	}
