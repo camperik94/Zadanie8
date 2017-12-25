@@ -19,8 +19,10 @@ public class Zadanie {
 		
 		Obliczenia obl = new Obliczenia(a, b);
 		
-		obl.funkcja();
+		obl.funkcjaFor();
 
-
+		obl.funkcjaWhile();
+		
+		obl.funkcjaDoWhile();
 	}
 }
